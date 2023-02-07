@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_for_dashboard"
+    android:orientation="vertical"
+    tools:context=".FragmentDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_for_white_top_rounded"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_administration"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/administration"
+                            android:src="@drawable/icon_administration" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/up_administration" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_leader"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/leader"
+                            android:src="@drawable/icon_leader" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/leader" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_govt_office"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/govt_office"
+                            android:src="@drawable/icon_office" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/govt_office" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_educational_institute"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/administration"
+                            android:src="@drawable/icon_education" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/educational_institute" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_emergency_service"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/emergency_service"
+                            android:src="@drawable/icon_emergency" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/emergency_service" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_journalist"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/journalist"
+                            android:src="@drawable/icon_journalist" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/journalist" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_bdg_pourasova"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/bdg_pourasova"
+                            android:src="@drawable/icon_municipal" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/bdg_pourasova" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_up"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/union"
+                            android:src="@drawable/icon_union" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/union" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/rail"
+                            android:src="@drawable/icon_rail" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/rail" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/bus"
+                            android:src="@drawable/icon_bus" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/bus" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_doctor_chamber"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/doctor"
+                            android:src="@drawable/icon_doctors" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/doctor" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_blood_donors"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/blood_donors"
+                            android:src="@drawable/icon_blood_donor" />
+
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/blood_donors" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout style="@style/dash_row_layout">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_person"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/personality"
+                            android:src="@drawable/icon_leadership" />
+
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:layout_width="wrap_content"
+                            android:text="@string/personality" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/btn_place"
+                    style="@style/dash_card">
+
+                    <LinearLayout style="@style/dash_card_layout">
+
+                        <ImageView
+                            style="@style/dash_icon_size"
+                            android:contentDescription="@string/place"
+                            android:src="@drawable/icon_travel" />
+
+                        <TextView
+                            style="@style/dash_title"
+                            android:text="@string/place" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Connected Badarganj</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="administration">Administration</string>
+    <string name="up_administration">উপজেলা প্রশাসন</string>
+    <string name="leader">জন প্রতিনিধি</string>
+    <string name="govt_office">সরকারি অফিস</string>
+    <string name="educational_institute">শিক্ষা প্রতিষ্ঠান</string>
+    <string name="title">এক অ্যাপেই বদরগঞ্জ উপজেলার সব তথ্য</string>
+    <string name="emergency_service">জরুরী সেবা</string>
+    <string name="journalist">সাংবাদিক</string>
+    <string name="bdg_pourasova">বদরগঞ্জ পৌরসভা</string>
+    <string name="union">ইউনিয়ন পরিষদ</string>
+    <string name="rail">রেল যোগাযোগ</string>
+    <string name="bus">বাস যোগাযোগ</string>
+    <string name="doctor">ডাক্তার চেম্বার</string>
+    <string name="blood_donors">ব্লাড ডোনারস</string>
+    <string name="personality">উল্লেখযোগ্য ব্যক্তিত্ব</string>
+    <string name="place">দর্শনীয় স্থান</string>
+    <string name="uno">উপজেলা নির্বাহী\nঅফিসার</string>
+    <string name="oc">থানা ভারপ্রাপ্ত\nকর্মকর্তা</string>
+    <string name="ac_land">সহকারী কমিশনার\nভূমি</string>
+    <string name="bdg">বদরগঞ্জ</string>
+    <string name="bdg_chairman">উপজেলা চেয়ারম্যান</string>
+    <string name="icon">icon</string>
+</resources>
